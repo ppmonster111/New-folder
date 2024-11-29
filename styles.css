@@ -173,5 +173,67 @@ p {
   margin: 0;
   color: #333;
 }
+/* Section: Projects */
+.projects {
+  padding: 50px 20px;
+  background-color: #f4f4f4; /* เปลี่ยนพื้นหลังให้เรียบง่าย */
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ */
+  gap: 20px;
+}
+
+.project {
+  background-color: #fff; /* พื้นหลังสีขาว */
+  border: 2px solid #ddd; /* กรอบสีเทาอ่อน */
+  border-radius: 10px; /* โค้งมุม */
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05); /* ขยายขนาดเมื่อเลื่อนเมาส์ */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project h3 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.project p {
+  color: #666;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.project .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
 
 
