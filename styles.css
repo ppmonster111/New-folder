@@ -125,3 +125,53 @@ p {
   line-height: 1.6;
   color: #555;
 }
+/* Section: Skills */
+.skills {
+  padding: 50px 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.skills h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 คอลัมน์ใน 1 แถว */
+  gap: 20px; /* ระยะห่างระหว่างไอคอน */
+  justify-items: center;
+  align-items: center;
+}
+
+.skill {
+  text-align: center;
+  border: 2px solid #fff; /* กรอบสีขาวเพื่อให้เข้ากับพื้นหลัง */
+  border-radius: 10px; /* ความโค้งมุม */
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff; /* พื้นหลังของกรอบให้เป็นสีขาว */
+  max-width: 150px; /* กำหนดความกว้างสูงสุด */
+  min-height: 150px; /* กำหนดความสูงขั้นต่ำ */
+}
+
+.skill:hover {
+  transform: scale(1.05); /* ขยายเมื่อเลื่อนเมาส์ */
+}
+
+.skill i {
+  font-size: 50px; /* ขนาดของไอคอน */
+  margin-bottom: 10px;
+}
+
+.skill p {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+
