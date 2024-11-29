@@ -70,13 +70,13 @@ p {
 }
 
 .avatar img {
-  width: 400px; /* ปรับขนาด Avatar */
+  width: 400px;
   height: 400px;
   background-color: #00d4ff;
   border: 5px solid #000;
-  border-radius: 10%; /* เพิ่มความโค้งมน */
+  border-radius: 10%;
 }
-/* ไอคอนโซเชียล */
+
 .social-icons {
   display: flex;
   gap: 15px;
@@ -85,33 +85,33 @@ p {
 
 .social-icons a {
   text-decoration: none;
-  color: #000; /* สีเริ่มต้น */
-  font-size: 1.5em; /* ขนาดไอคอน */
-  transition: color 0.3s ease; /* เพิ่มเอฟเฟกต์การเปลี่ยนสี */
+  color: #000;
+  font-size: 1.5em;
+  transition: color 0.3s ease;
 }
 
 .social-icons a.github:hover {
-  color: #333; /* สี GitHub */
+  color: #333;
 }
 
 .social-icons a.facebook:hover {
-  color: #3b5998; /* สี Facebook */
+  color: #3b5998;
 }
 
 .social-icons a.instagram:hover {
-  color: #e4405f; /* สี Instagram */
+  color: #e4405f;
 }
 
 .social-icons a.twitter:hover {
-  color: #1da1f2; /* สี X (Twitter) */
+  color: #1da1f2;
 }
-/* ส่วน About Me */
+
 .about {
-  background-color: #f9f9f9; /* สีพื้นหลัง */
+  background-color: #f9f9f9;
   padding: 40px 20px;
   margin: 20px 0;
-  border-radius: 10px; /* มุมโค้งมน */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงา */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .about h2 {
@@ -125,7 +125,7 @@ p {
   line-height: 1.6;
   color: #555;
 }
-/* Section: Skills */
+
 .skills {
   padding: 50px 20px;
   text-align: center;
@@ -141,29 +141,29 @@ p {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 คอลัมน์ใน 1 แถว */
-  gap: 20px; /* ระยะห่างระหว่างไอคอน */
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
   justify-items: center;
   align-items: center;
 }
 
 .skill {
   text-align: center;
-  border: 2px solid #fff; /* กรอบสีขาวเพื่อให้เข้ากับพื้นหลัง */
-  border-radius: 10px; /* ความโค้งมุม */
+  border: 2px solid #fff;
+  border-radius: 10px;
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: #fff; /* พื้นหลังของกรอบให้เป็นสีขาว */
-  max-width: 150px; /* กำหนดความกว้างสูงสุด */
-  min-height: 150px; /* กำหนดความสูงขั้นต่ำ */
+  background-color: #fff;
+  max-width: 150px;
+  min-height: 150px;
 }
 
 .skill:hover {
-  transform: scale(1.05); /* ขยายเมื่อเลื่อนเมาส์ */
+  transform: scale(1.05);
 }
 
 .skill i {
-  font-size: 50px; /* ขนาดของไอคอน */
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
@@ -173,10 +173,10 @@ p {
   margin: 0;
   color: #333;
 }
-/* Section: Projects */
+
 .projects {
   padding: 50px 20px;
-  background-color: #f4f4f4; /* เปลี่ยนพื้นหลังให้เรียบง่าย */
+  background-color: #f4f4f4;
   text-align: center;
 }
 
@@ -189,22 +189,22 @@ p {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
 .project {
-  background-color: #fff; /* พื้นหลังสีขาว */
-  border: 2px solid #ddd; /* กรอบสีเทาอ่อน */
-  border-radius: 10px; /* โค้งมุม */
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project:hover {
-  transform: scale(1.05); /* ขยายขนาดเมื่อเลื่อนเมาส์ */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .project img {
@@ -235,5 +235,3 @@ p {
   margin-top: 10px;
   transition: background-color 0.3s ease;
 }
-
-
